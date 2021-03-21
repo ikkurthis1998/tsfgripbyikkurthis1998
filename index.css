@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, .7);
+}
+
+.brand-title-custom {
+    /*margin-left: 2px;*/
+    /*padding: 8px;*/
+    font-family: Roboto;
+    color: rgb(255, 174, 0);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.brand-image {
+    width: 40px;
+}
+
+.title-block {
+    margin-left: -15px;
+    font-weight: bold;
+}
+
+.brand-tagline {
+    font-size: 12px;
+    margin-left: 14px;
+}
+
+.navbar-toggler-icon-custom {
+    padding: 5px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.about-grip-container {
+    border-radius: 5px;
+    /* background-color: red; */
+}
+
+ .about-grip-art {
+    -webkit-filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, .7));
+    filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, .7));
+}
+
+
+.about-grip-art-container {
+    padding: 90px;
+    /*background-color: blue; */
+}
+
+.about-grip-art-container-xsmall {
+    margin-top: -30px;
+    margin-bottom: -150px;
+    padding: 100px;
+    /*background-color: blue; */
+}
+
+.about-grip-art-container-sm {
+    margin-top: -200px;
+    margin-bottom: -250px;
+    padding: 250px;
+    /*background-color: blue; */
+}
+
+
+/*.about-grip-art-placement {*/
+    /* margin-left: 25%; */
+/*} */
+
+.about-grip-text {
+    padding: 70px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.about-grip-text-placement {
+    /*text-align: center;*/
+
+}
+
+.about-grip-heading {
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+}
+
+.about-grip-details {
+    /*font-weight: bold;*/
+}
+
+.verticals-heading {
+    /*background-color: red;*/
+    color: rgb(255, 174, 0);
+    font-weight: bold;
+    /*margin-top: 20px;*/
+}
+
+.verticals-list-container {
+    margin-left: -30px;
+    margin-right: -30px;
+    /*background-color: green;*/
+    text-align: left;
+}
+
+.vertical-link-div {
+    
+    /*margin-right: 10px;*/
+}
+
+.verticals-links {
+    /*background-color: blue;*/
+    color: rgba(0, 0, 0, .7);
+    /*text-decoration: none;*/
+}
+
+#aboutGrip::before {
+    display: block;
+    height: 70px;
+    /* equal to the header height */
+    margin-top: -70px;
+    /* negative margin equal to the header height */
+    visibility: hidden;
+    content: "";
+}
+
+.benefits-container {
+    padding-left: 30px;
+    background-color: #f2f2f2;
+}
+
+.benefits-heading {
+    font-weight: bold;
+    font-family: Roboto;
+    color: rgb(255, 174, 0);
+}
+
+.benefits-text {
+    font-family: Roboto;
+    padding: 35px;
+}
+
+.certificate-art {
+    width: 150px;
+}
+
+.opportunity-art {
+    width: 100px;
+}
+
+.network-art {
+    width: 120px;
+    /*padding-right: 20px;*/
+}
+
+.recommendation-art {
+    width: 130px;
+}
+
+ .benefits-certificate {
+    /*margin-top: -150px;*/
+    /*padding: 20px;*/
+    /*margin-left: 120px;*/
+    /*font-size: 15rem;*/
+    margin-bottom: 70px;
+    list-style: none;
+    /*url(./art/certificate.svg);*/
+}
+
+.benefits-recommendation-letter {
+    /*margin-top: -150px;*/
+    /*padding: 20px;*/
+    /*margin-left: 120px;*/
+    /*font-size: 15rem;*/
+    list-style: none;
+    /*url(./art/recommendation_letter.svg);*/
+}
+
+.benefits-guidance {
+    /*margin-top: -150px;*/
+    /*padding: 20px;*/
+    /*margin-left: 120px;*/
+    /*font-size: 15rem;*/
+    list-style: none;
+    /*url(./art/guidance.svg);*/
+}
+
+.benefits-opportunity {
+    /*margin-top: -100px;*/
+    /*padding: 20px;*/
+    /*margin-left: 120px;*/
+    /*font-size: 12rem;*/
+    margin-bottom: 70px;
+    list-style: none;
+    /*url(./art/opportunity.svg);*/
+}
+
+.benefits-network {
+    /*margin-top: -150px;*/
+    /*padding: 20px;*/
+    /*margin-left: 120px;*/
+    /*font-size: 15rem;*/
+    list-style: none;
+    /*url(./art/network.svg);*/
+} 
+
+.benefits-list-text {
+    font-size: 18px;
+}
+
+.benefits-sideheading {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#benefits::before {
+    display: block;
+    height: 110px;
+    /* equal to the header height */
+    margin-top: 0px;
+    /* negative margin equal to the header height */
+    visibility: hidden;
+    content: "";
+}
+
+.know-more-container {
+    padding-left: 30px;
+}
+
+.know-more-list-text {
+    font-size: 18px;
+}
+
+.know-more-sideheading {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.know-more-heading {
+    font-weight: bold;
+    font-family: Roboto;
+    color: rgb(255, 174, 0);
+    margin-bottom: -50px;
+}
+
+.know-more-text {
+    font-family: Roboto;
+    padding: 60px;
+}
+
+.know-more-text-2 {
+    font-family: Roboto;
+    padding: 60px;
+}
+
+.know-more-flexible {
+    margin-top: -60px;
+    padding: 30px;
+}
+
+.know-more-unpaid {
+    list-style: url(./art/arrow.svg);
+    /* margin-top: -150px; */
+    /* padding: 20px; */
+    /* margin-right: 120px; */
+    margin-bottom: -100px;
+    font-size: 5rem;
+    /* margin-top: -100px; */
+}
+
+.know-more-own-computers {
+    list-style: url(./art/arrow.svg);
+    font-size: 5rem;
+    /* margin-top: -100px; */
+}
+
+.know-more-flexible-hours {
+    list-style: url(./art/arrow.svg);
+    font-size: 5rem;
+    margin-top: -100px;
+}
+
+#knowMore::before {
+    display: block;
+    height: 100px;
+    /* equal to the header height */
+    margin-top: 0px;
+    /* negative margin equal to the header height */
+    visibility: hidden;
+    content: "";
+}
+
+.support-container {
+    padding-left: 30px;
+    background-color: #f2f2f2;
+}
+
+.support-heading {
+    color: rgb(255, 174, 0);
+}
+
+
+.support-list-text {
+    font-size: 18px;
+}
+
+.support-sideheading {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.support-text-top {
+    font-family: Roboto;
+}
+
+.support-text-bottom {
+    font-family: Roboto;
+}
+
+.support-scheduled-calls {
+    padding: 30px;
+    list-style: none;
+}
+
+.support-mentor-support {
+    padding: 30px;
+    list-style: none;
+}
+
+.support-discussion-forum {
+    padding: 30px;
+    list-style: none;
+}
+
+.support-on-demand {
+    padding: 30px;
+    list-style: none;
+}
+
+.ondemand-art {
+    width: 130px;
+}
+
+.discussion-art {
+    width: 120px;
+}
+
+.mentor-art {
+    width: 150px;
+}
+
+.scheduled-art {
+    width: 140px;
+}
+
+#support::before {
+    display: block;
+    height: 110px;
+    /* equal to the header height */
+    margin-top: 0px;
+    /* negative margin equal to the header height */
+    visibility: hidden;
+    content: "";
+}
+
+#application::before {
+    display: block;
+    height: 110px;
+    /* equal to the header height */
+    margin-top: 0px;
+    /* negative margin equal to the header height */
+    visibility: hidden;
+    content: "";
+}
+
+.application-container {
+    font-family: Roboto;
+    padding-left: 30px;
+}
+
+.application-heading {
+    font-weight: bold;
+    font-family: Roboto;
+    color: rgb(255, 174, 0);
+}
+
+.application-rules-list {
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 30px;
+}
+
+.application-rules {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.application-rules-subinfo{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.form-block {
+    /* padding: 30px;
+    padding-left: 15px; */
+}
+
+span a {
+    text-decoration: none;
+}
+
+.footer-container {
+    font-size: 14px;
+    font-family: Roboto;
+    background-color: #0f0f0f;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+}
+
+.footer-icon {
+    padding: 30px;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 1.5rem;
+}
+
+.footer-icon-a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-div-container {
+    padding: 30px;
+}
+
+.join-us-heading {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.join-us-list {
+    margin-left: -30px;
+    list-style: none;
+}
+
+.join-us-list-a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
